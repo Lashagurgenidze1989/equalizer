@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: IBM Plex Sans;
+  background: #FCFAF9;
+  background-image: url(./images/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-position: 0 -200px;
+}
+
+button {
+  font-family: IBM Plex Sans;
+}
+
+header {
+  padding: 40px 24px 0 24px;
+}
+
+header h2 {
+  color: #191826;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; 
+  letter-spacing: -0.455px;
+}
+
+.description {
+  margin-top: 64px;
+  padding: 0 24px;
+}
+
+.description h1 {
+  color: #191826;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.455px;
+}
+
+.description p {
+  color: #191826;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 20px;
+}
+
+
+.mid {
+  background-color: black;
+  background-image: url(./images/bg-pattern-2.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  position: relative;
+  margin-top: 166px;
+  width: 375px;
+  height: 600px;
+}
+
+.mobile {
+  width: 208.972px;
+  height: 430px;
+  position: absolute;
+  top: -98px;
+  left: 80px;
+}
+
+.premium {
+  width: 375px;
+  height: 546px;
+  border-radius: 12px;
+  background: #FA7453;
+  padding: 48px 37px 48px 42px;
+  position: absolute;
+  top: 400px;
+}
+
+.premium h2 {
+  color: #FCFAF9;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; 
+}
+
+.premium .text {
+  color: #FCFAF9;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+  margin-top: 12px;
+}
+
+.premium .cost {
+  color: #FCFAF9;
+  font-size: 6.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; 
+  margin-top: 36px;
+  display: table;
+}
+
+.cost span {
+  color: #FCFAF9;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.premium button {
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  border: none;
+}
+
+.apple {
+  background: #191826;
+  padding: 15px 77px;
+  margin-top: 32px;
+}
+
+.apple img {
+  width: 17.083px;
+  height: 20px;
+}
+
+.apple p {
+  color: #FCFAF9;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; 
+  letter-spacing: -0.18px;
+}
+
+.android {
+  background: #FCFAF9;
+  padding: 15px 58px;
+  margin-top: 16px;
+}
+
+.android img {
+  width: 16.702px;
+  height: 20px;
+}
+
+.android p {
+  color: #191826;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; 
+  letter-spacing: -0.18px;
+}
+
+
+footer {
+  margin-top: 390px;
+  padding: 63px 24px 80px;
+}
+
+footer h2 {
+  color: #191826;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; 
+  letter-spacing: -0.455px;
+}
+
+footer p {
+  color: #191826;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 32px;
+}
+
+footer p span {
+  font-weight: 700;
+}
+
+.icons {
+  margin-top: 64px;
+  display: flex;
+  gap: 25px;
+}
+
+@media (min-width: 768px){
+  body {
+    background-image: url(./images/bg-pattern-1.svg), url(./images/bg-main-tablet.png);
+    background-repeat: no-repeat;
+    background-position: 550px -30px, -420px -270px;
+    background-size: 34% auto, auto;
+  }
+
+  header {
+    padding: 62px 39px 0 39px;
+
+  }
+
+  main {
+    padding: 0 39px 0 33px;
+  }
+
+  main .description {
+    margin-top: 95px;
+  }
+
+  .description h1 {
+    font-size: 6.4rem;
+    line-height: 64px;
+    width: 520px;
+    margin-top: 95px;
+  }
+
+  .description p {
+    width: 514px;
+    font-size: 1.8rem;
+    line-height: 28px; 
+    margin-top: 28px;
+  }
+
+  .mid {
+    width: 696px;
+    height: 600px;
+    border-radius: 12px;
+    margin-top: 249px;
+    background-position: 219px -40px;
+  }
+
+  .premium {
+    width: 399px;
+    left: 240px;
+    top: 150px;
+  }
+
+  .mobile {
+    width: 270.206px;
+    height: 556px;
+    left: 64px;
+    top: -138px;
+    background-position: 39px 167px;
+  }
+
+  footer {
+    margin-top: 183px;
+    padding: 0 39px 85px 33px;
+  }
+
+  footer .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer p {
+    width: 366px;
+  }
+
+  .icons {
+    margin-top: 0;
+  }
+
+  footer p br {
+    display: none;
+  }
+}
+
+
+@media (min-width: 1440px){
+  body {
+    background-image: url(./images/bg-pattern-1.svg), url(./images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 1128px -40px, -300px -230px;
+    background-size: 312px 468px, auto;
+  }
+
+  header {
+    padding: 62px 165px 0;
+  }
+
+  main {
+    padding: 0 165px;
+  }
+
+  .description{
+    padding: 0;
+  }
+
+  .description h1 {
+    width: 1015px;
+    font-size: 8.8rem;
+    line-height: 88px; 
+    letter-spacing: -1px;
+  }
+
+  .description p {
+    width: 825px;
+    font-size: 2rem;
+    line-height: 34px;
+    margin-top: 40px;
+  }
+
+  .mid {
+    width: 1110px;
+    height: 600px;
+    background-position: 353px -40px;
+    margin-top: 321px;
+  }
+
+  .mid .mobile {
+    left: 118px;
+    width: 312px;
+    height: 642px;
+    top: -213px;
+  }
+
+  .premium {
+    width: 446px;
+    height: 625px;
+    padding: 58px 59px 48px 54px;
+    left: 569px;
+    top: 90px;
+  }
+
+  .premium h2 {
+    font-size: 4rem;
+    line-height: 52px; 
+  }
+
+  .premium .text {
+    font-size: 2rem;
+    line-height: 34px; 
+    margin-top: 22px;
+  }
+
+  .premium .cost {
+    margin-top: 39px;
+  }
+
+  .premium button {
+    width: 333px;
+    height: 61px;
+  }
+
+  .premium .apple {
+    margin-top: 46px;
+  }
+
+  footer {
+    padding: 0 165px 91px;
+    display: flex;
+    align-items: center;
+    gap: 137px;
+  }
+  
+  .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .bottom p {
+    margin: 0;
+  }
+
+  .apple:hover {
+    background: #66E2DC;
+    cursor: pointer;
+  }
+
+  .android:hover {
+    background: #FFB964;
+    cursor: pointer;
+  }
+
+  .fb:hover {
+    background: #FF7B40;
+    cursor: pointer;
+  }
+}
