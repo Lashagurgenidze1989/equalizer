@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
 
 html {
   font-size: 10px;
@@ -6,7 +6,7 @@ html {
 
 body {
   font-family: IBM Plex Sans;
-  background: #FCFAF9;
+  background: #fcfaf9;
   background-image: url(./images/bg-main-mobile.png);
   background-repeat: no-repeat;
   background-position: 0 -200px;
@@ -25,7 +25,7 @@ header h2 {
   font-size: 3.2rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px; 
+  line-height: 48px;
   letter-spacing: -0.455px;
 }
 
@@ -52,7 +52,6 @@ header h2 {
   margin-top: 20px;
 }
 
-
 .mid {
   background-color: black;
   background-image: url(./images/bg-pattern-2.svg);
@@ -76,41 +75,41 @@ header h2 {
   width: 375px;
   height: 546px;
   border-radius: 12px;
-  background: #FA7453;
+  background: #fa7453;
   padding: 48px 37px 48px 42px;
   position: absolute;
   top: 400px;
 }
 
 .premium h2 {
-  color: #FCFAF9;
+  color: #fcfaf9;
   font-size: 3.2rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; 
+  line-height: 40px;
 }
 
 .premium .text {
-  color: #FCFAF9;
+  color: #fcfaf9;
   font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; 
+  line-height: 28px;
   margin-top: 12px;
 }
 
 .premium .cost {
-  color: #FCFAF9;
+  color: #fcfaf9;
   font-size: 6.5rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 52px; 
+  line-height: 52px;
   margin-top: 36px;
   display: table;
 }
 
 .cost span {
-  color: #FCFAF9;
+  color: #fcfaf9;
   font-size: 2rem;
   font-style: normal;
   font-weight: 400;
@@ -141,17 +140,17 @@ header h2 {
 }
 
 .apple p {
-  color: #FCFAF9;
+  color: #fcfaf9;
   text-align: center;
   font-size: 1.8rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 32px; 
+  line-height: 32px;
   letter-spacing: -0.18px;
 }
 
 .android {
-  background: #FCFAF9;
+  background: #fcfaf9;
   padding: 15px 58px;
   margin-top: 16px;
 }
@@ -167,10 +166,9 @@ header h2 {
   font-size: 1.8rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 32px; 
+  line-height: 32px;
   letter-spacing: -0.18px;
 }
-
 
 footer {
   margin-top: 390px;
@@ -182,7 +180,6 @@ footer h2 {
   font-size: 3.2rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px; 
   letter-spacing: -0.455px;
 }
 
@@ -205,9 +202,10 @@ footer p span {
   gap: 25px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   body {
-    background-image: url(./images/bg-pattern-1.svg), url(./images/bg-main-tablet.png);
+    background-image: url(./images/bg-pattern-1.svg),
+      url(./images/bg-main-tablet.png);
     background-repeat: no-repeat;
     background-position: 550px -30px, -420px -270px;
     background-size: 34% auto, auto;
@@ -215,7 +213,6 @@ footer p span {
 
   header {
     padding: 62px 39px 0 39px;
-
   }
 
   main {
@@ -236,7 +233,7 @@ footer p span {
   .description p {
     width: 514px;
     font-size: 1.8rem;
-    line-height: 28px; 
+    line-height: 28px;
     margin-top: 28px;
   }
 
@@ -286,10 +283,10 @@ footer p span {
   }
 }
 
-
-@media (min-width: 1440px){
+@media (min-width: 1440px) {
   body {
-    background-image: url(./images/bg-pattern-1.svg), url(./images/bg-main-desktop.png);
+    background-image: url(./images/bg-pattern-1.svg),
+      url(./images/bg-main-desktop.png);
     background-repeat: no-repeat;
     background-position: 1128px -40px, -300px -230px;
     background-size: 312px 468px, auto;
@@ -301,16 +298,17 @@ footer p span {
 
   main {
     padding: 0 165px;
+    margin: 0 auto;
   }
 
-  .description{
+  .description {
     padding: 0;
   }
 
   .description h1 {
     width: 1015px;
     font-size: 8.8rem;
-    line-height: 88px; 
+    line-height: 88px;
     letter-spacing: -1px;
   }
 
@@ -345,12 +343,12 @@ footer p span {
 
   .premium h2 {
     font-size: 4rem;
-    line-height: 52px; 
+    line-height: 52px;
   }
 
   .premium .text {
     font-size: 2rem;
-    line-height: 34px; 
+    line-height: 34px;
     margin-top: 22px;
   }
 
@@ -373,11 +371,16 @@ footer p span {
     align-items: center;
     gap: 137px;
   }
-  
+
+  footer h2 {
+    align-self: flex-start;
+  }
+
   .bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
   }
 
   .bottom p {
@@ -385,17 +388,17 @@ footer p span {
   }
 
   .apple:hover {
-    background: #66E2DC;
+    background: #66e2dc;
     cursor: pointer;
   }
 
   .android:hover {
-    background: #FFB964;
+    background: #ffb964;
     cursor: pointer;
   }
 
   .fb:hover {
-    background: #FF7B40;
+    background: #ff7b40;
     cursor: pointer;
   }
 }
